@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.spec
+.pytest_cache/
+
+# Data & Models (Optional to ignore if large, but keeping them in for portfolio proof)
+# data/*.csv
+# data/*.parquet
+# models/*.joblib
+
+# Next.js
+.next/
+node_modules/
+out/
+.env*.local
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
